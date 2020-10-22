@@ -1,20 +1,20 @@
 #!/bin/bash
 
 export DEFAULT_LOCATION=uksouth
-export SIRMIONE_ALIAS=bpsirmione
-export LIMONE_ALIAS=bplimone
-export SCORPIO_ALIAS=bpscorpio
-export VIRGO_ALIAS=bpvirgo
-export LIBRA_ALIAS=bplibra
-export ZODIAC_ALIAS=bpzodiac
-export DB_ADMIN_USER=nick
+export SIRMIONE_ALIAS=sm3242sirmione
+export LIMONE_ALIAS=sm3242limone
+export SCORPIO_ALIAS=sm3242scorpio
+export VIRGO_ALIAS=sm3242virgo
+export LIBRA_ALIAS=sm3242libra
+export ZODIAC_ALIAS=sm3242zodiac
+export DB_ADMIN_USER=sm3242
 export AAD_DOMAIN=xekina.onmicrosoft.com
 export AAD_TENANTID=3bc03625-3a0a-48c5-8aa5-12f22e401fff
 export AAD_CLIENTID=ccee7608-940c-42d9-ba86-a2845ef3a808
 export OUTPUT=json
 
 # Whatever you set zodiac instance to will be tagged onto your azure resources, and enable you to access all the different components as a cohesive set
-export ZODIAC_INSTANCE=Jemima
+export ZODIAC_INSTANCE=SanjogM
 
 echo "<h2>Environment Variables</h2>" >> deployment-log.html
 echo "<p>ZODIAC_INSTANCE:$ZODIAC_INSTANCE</p>" >> deployment-log.html
